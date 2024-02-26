@@ -12,6 +12,7 @@
         android:orientation="vertical"
         android:background="@color/biruTua" >
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,7 +37,7 @@
                     android:id="@+id/name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_padding="18dp"
+                    android:padding="18dp"
                     android:gravity="center_horizontal"
                     android:text="Farencia Levis"
                     android:textStyle="bold"
@@ -46,7 +47,7 @@
                     android:id="@+id/nim"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_padding="12dp"
+                    android:padding="12dp"
                     android:gravity="center_horizontal"
                     android:text="03081220029"
                     android:textSize="12dp"
@@ -58,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:layout_padding="15dp"
+                android:padding="15dp"
                 android:orientation="vertical">
 
                 <LinearLayout

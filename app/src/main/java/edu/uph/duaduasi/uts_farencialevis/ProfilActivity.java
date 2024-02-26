@@ -65,5 +65,6 @@ public class ProfilActivity extends AppCompatActivity {
         // Set layout direction to right-to-left
         toastView.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         toast.show();
+        finish();
     }
 }
