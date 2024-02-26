@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="biruUph">#0e3e77</color>
+    <color name="kuning">#eecb36</color>
+    <color name="biruTua">#02244c</color>
+    <color name="biruLain">#082d68</color>
 </resources>

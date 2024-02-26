@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiwayatSepActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/riwayatSEP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="Riwayat SEP Poin"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/biruLain">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dotsPoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="96 SEP Poin"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/dots23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="Day of Togetherness and Sharing 2023"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/dotsDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="16-03-2023"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/kuning">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/kampanyePoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="32 SEP Poin"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/biruTua" />
+
+                <TextView
+                    android:id="@+id/kampanye23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kampanye Internet Sehat dan Sosialisasi Wife One UPH 2023"
+                    android:textSize="12dp"
+                    android:textColor="@color/biruTua" />
+
+                <TextView
+                    android:id="@+id/kampanyeDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14-04-2023"
+                    android:textSize="12dp"
+                    android:textColor="@color/biruTua" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/biruLain">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/surveiPoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="64 SEP Poin"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/survei23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Survei Misi Misi Tujuan UPH November 2023"
+                    android:textSize="12dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/surveiDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15-05-2023"
+                    android:textSize="12dp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/kuning">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bccPoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="96 SEP Poin"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/biruTua" />
+
+                <TextView
+                    android:id="@+id/bcc23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Basic Coding Class 2023 HMPSSI UPHMC dan HMPSIF UPHMC"
+                    android:textSize="12dp"
+                    android:textColor="@color/biruTua" />
+
+                <TextView
+                    android:id="@+id/bccDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13-02-2024"
+                    android:textSize="12dp"
+                    android:textColor="@color/biruTua" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
