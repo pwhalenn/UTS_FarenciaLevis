@@ -2,7 +2,9 @@ package edu.uph.duaduasi.uts_farencialevis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -32,6 +34,11 @@ public class ProfilActivity extends AppCompatActivity {
         // Inisialisasi Views
         studentID = findViewById(R.id.studentID);
         nama = findViewById(R.id.nama);
+        SharedPreferences sharedPreferences =
+                PreferenceManager.
+                        getDefaultSharedPreferences(getApplicationContext());
+        String name = sharedPreferences.getString("Nama","");
+        nama.setText(name);
         jurusan = findViewById(R.id.jurusan);
         tahunMasuk = findViewById(R.id.tahunMasuk);
         status = findViewById(R.id.status);

@@ -3,7 +3,9 @@ package edu.uph.duaduasi.uts_farencialevis;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.LinearLayout;
 
@@ -32,5 +34,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        SharedPreferences sharedPreferences =
+                PreferenceManager.
+                        getDefaultSharedPreferences(getApplication());
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("Nama","Farencia");
+        editor.apply();
     }
 }
